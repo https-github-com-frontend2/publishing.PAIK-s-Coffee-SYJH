@@ -1,36 +1,103 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.in_header {
+  width: 100%;
+  height: 123px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #fff;
+  transition: 0.3s ease;
 }
 
-.container{
-    max-width: 1150px;
-    margin: 0 auto;
-    position: relative;
-
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.topbar{
-    text-align: right;
-    padding-top: 18px;
+.topbar {
+  display: flex;
+  text-align: right;
+  padding-top: 18px;
+  justify-content: flex-end;
 }
 
-.line{
-    display: inline-block;
-    height:10px;
-    width:1px;
-    margin:14px;
-    vertical-align: middle;
-    background-color: #e0e0e0;
-    content: '';
-
+.line {
+  display: inline-block;
+  height: 10px;
+  width: 1px;
+  margin: 14px;
+  vertical-align: middle;
+  background-color: #e0e0e0;
+  content: "";
 }
 
+.facebook {
+  margin: 0 3px;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.facebook > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.facebooklogo {
+  width: 20px;
+}
+
+.instr {
+  margin-right: 15px;
+}
+
+.instr > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.instrlogo {
+  width: 20px;
+}
+
+.nav_wrap {
+  margin-top: -20px 0 0;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1; /*다른 요소들보다 앞에 배치*/
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menulast {
+  position: relative;
+}
