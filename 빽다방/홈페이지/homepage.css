@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.topbar{
+    text-align: right;
+    padding-top: 18px;
+}
+
+.line{
+    display: inline-block;
+    height:10px;
+    width:1px;
+    margin:14px;
+    vertical-align: middle;
+    background-color: #e0e0e0;
+    content: '';
+
+}
+
