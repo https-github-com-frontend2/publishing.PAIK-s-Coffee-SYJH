@@ -116,6 +116,7 @@ ul {
   height: 285px;
   background-image: url(../빽다방이미지/main_sec1.jpg);
 }
+
 .box1_1 {
   padding-left: 350px;
   padding-top: 40px;
@@ -145,7 +146,7 @@ ul {
 .box1_5 {
   position: relative;
   display: block;
-  z-index: 1;
+
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -175,47 +176,67 @@ ul {
   width: 100%;
   height: 595px;
   display: block;
-  background-image: url(../빽다방이미지/main_sec2.jpg);
+  overflow: hidden;
+  position: relative;
 }
-
+.box2 .back {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 500ms;
+}
+.box2 img:hover {
+  transform: scale(1.05);
+  transition: transform 500ms;
+}
 .box2_1 {
-  padding-left: 350px;
-  padding-top: 40px;
+  position: absolute;
+  top: 40px;
+  left: 350px;
   font-size: 50px;
   color: #6b4d30;
   display: inline-block;
   font-weight: 900;
 }
 .box2_2 {
+  position: absolute;
+  top: 140px;
+  left: 350px;
   width: 40px;
   display: block;
   margin-top: 20px;
   height: 2px;
   background-color: #6b4d30;
-  margin-left: 350px;
   font-weight: 900;
 }
 
 .box2_3 {
+  position: absolute;
+  top: 190px;
+  left: 350px;
   display: inline-block;
-  margin-left: 350px;
+
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4em;
   color: #202020;
 }
 .box2_4 {
-  position: relative;
+  position: absolute;
+  top: 500px;
+  left: 350px;
   display: block;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 
   background-color: #fff;
-  margin-left: 350px;
-  margin-top: 300px;
-  padding-top: 15px;
-  padding-left: 15px;
+  margin: 0 auto;
+}
+.box2_5 {
+  padding-top: 25%;
+  padding-left: 25%;
 }
 
 .box2_6 {
@@ -235,49 +256,70 @@ ul {
 
 .box3 {
   width: 60%;
-  position: static;
+  position: relative;
+  height: 600px;
   float: left;
-  background-image: url(../빽다방이미지/main_sec3.jpg);
+  overflow: hidden;
+}
+.box3 .back {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 500ms;
+}
+.box3 img:hover {
+  transform: scale(1.05);
+  transition: transform 500ms;
 }
 .box3_1 {
-  padding-left: 350px;
-  padding-top: 40px;
+  position: absolute;
+  top: 40px;
+  left: 350px;
   font-size: 50px;
   color: #071f60;
   display: inline-block;
   font-weight: 900;
 }
 .box3_2 {
+  position: absolute;
+  top: 140px;
+  left: 350px;
   width: 40px;
   display: block;
   margin-top: 20px;
   height: 2px;
   background-color: #071f60;
-  margin-left: 350px;
   font-weight: 900;
 }
 
 .box3_3 {
+  position: absolute;
+  top: 190px;
+  left: 350px;
   display: inline-block;
-  margin-left: 350px;
+
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.4em;
   color: #202020;
 }
 
 .box3_4 {
-  position: relative;
+  position: absolute;
+  top: 500px;
+  left: 350px;
   display: block;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 
   background-color: #fff;
-  margin-left: 350px;
-  margin-top: 250px;
-  padding-top: 15px;
-  padding-left: 15px;
+  margin: 0 auto;
+}
+.box3_5 {
+  padding-top: 25%;
+  padding-left: 25%;
 }
 
 .box3_6 {
@@ -293,4 +335,181 @@ ul {
 .box3_4:hover .box3_6 {
   display: block;
   background-color: yellow;
+}
+
+.box5 {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  width: 40%;
+  border: 0;
+  float: right;
+}
+.box5 .back {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 500ms;
+}
+.box5 img:hover {
+  transform: scale(1.05);
+  transition: transform 500ms;
+}
+.box5_1 {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  font-size: 50px;
+  color: #f1ae1d;
+  display: inline-block;
+  font-weight: 900;
+}
+.box5_2 {
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  width: 40px;
+  display: block;
+  margin-top: 20px;
+  height: 2px;
+  background-color: #f1ae1d;
+  font-weight: 900;
+}
+
+.box5_3 {
+  position: absolute;
+  top: 190px;
+  left: 30px;
+  display: inline-block;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #202020;
+}
+
+.box5_4 {
+  position: absolute;
+  top: 510px;
+  left: 30px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.box5_5 {
+  padding-top: 25%;
+  padding-left: 25%;
+}
+
+.box5_6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  display: none;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.box5_4:hover .box5_6 {
+  display: block;
+  background-color: yellow;
+}
+
+.box6 {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  width: 53%;
+  float: right;
+}
+.box6 back {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 500ms;
+}
+.box6 img:hover {
+  transform: scale(1.05);
+  transition: transform 500ms;
+}
+
+.box6_1 {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  font-size: 50px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 900;
+}
+
+.box6_2 {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  width: 40px;
+  display: block;
+  margin-top: 20px;
+  height: 2px;
+  background-color: #fff;
+  font-weight: 900;
+}
+.box6_3 {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  display: inline-block;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #fff;
+}
+.box6_4 {
+  position: absolute;
+  top: 510px;
+  left: 30px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.box6_5 {
+  padding-top: 25%;
+  padding-left: 25%;
+}
+.box6_6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  display: none;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.box6_4:hover .box6_6 {
+  display: block;
+  background-color: yellow;
+}
+
+.box7 {
+  height: 300px;
+  width: 46%;
+  float: left;
+}
+.box8 {
+  height: 296px;
+  width: 46%;
+  float: left;
 }
