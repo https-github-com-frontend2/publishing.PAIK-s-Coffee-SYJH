@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   text-decoration : none;
+
+
 }
 .in_header {
   width: 100%;
@@ -100,4 +103,210 @@ ul {
 
 .menulast {
   position: relative;
+}
+
+/* 재현 */
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container2 {
+  display: flex;
+}
+
+.box4 {
+  background-image: url(../빽다방이미지/main_sec3.jpg);
+  height:603px;
+  width: 1153px;
+  border: 0;
+  background-repeat: no-repeat;
+  margin: 0;
+  
+  
+}
+
+.variousbev {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #0c2660;
+ 
+  
+}
+
+.line2 {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #071f60;
+  margin: 20px 0px;
+
+}
+
+.ade {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #202020;
+  padding-bottom: 25%;
+ 
+
+}
+
+.box5 {
+  background-image: url(../빽다방이미지/main_sec4.jpg);
+  height:603px;
+  width:766px;
+  border: 0;
+
+}
+
+.btn1 {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border:0;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgba(226,226,226,0.8)
+}
+
+.sweet {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #f1ae1d;
+}
+
+.margin1 {
+  margin: 5%;
+}
+
+.line3 {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #071f60;
+  margin: 20px 0px;
+
+}
+
+.cool {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #202020;
+  padding-bottom: 40%;
+ 
+}
+
+.btn2 {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border:0;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgba(226,226,226,0.8)
+}
+
+.margin2{
+  margin: 5%
+}
+
+
+
+.box7{
+  background-image: url(../빽다방이미지/main_sec6.png);
+  background-repeat: no-repeat;
+}
+
+.box8{
+  background-image: url(../빽다방이미지/main_sec5.jpg);
+  background-repeat: no-repeat;
+  width: 1045px;
+  height: 615px;
+  
+}
+
+.tasty{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+
+.line4{
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #fff;
+  margin: 20px 0px;
+}
+
+.icecream{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #fff;
+  padding-bottom: 20%;
+}
+
+.btn3{
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border:0;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgba(226,226,226,0.8)
+}
+
+.box6{
+  width:504px;
+  width: 296px;
+  
+}
+
+.store{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color:  #0c2660;
+}
+
+.market{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20%;
+}
+
+.inputbox{
+  width:320px;
+}
+
+.fran{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color:  #0c2660;
+}
+
+.intro{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.btn4{
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border:0;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgba(226,226,226,0.8)
 }
