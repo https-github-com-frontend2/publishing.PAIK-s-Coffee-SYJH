@@ -28,6 +28,10 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+.the {
+  text-decoration: none;
+  color: #8b8b8b;
+}
 
 .topbar {
   display: flex;
@@ -75,11 +79,14 @@ ul {
 }
 
 .nav_wrap {
-  margin-top: -20px 0 0;
-
+  margin-top: -20px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+.nav_wrap a {
+  color: #202020;
+  text-decoration: none;
 }
 
 .dropdown {
@@ -99,17 +106,86 @@ ul {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  width: 100vh;
+  background-color: #f1ae1d;
 }
 
 .menulast {
   position: relative;
 }
 
+/* slide banner */
+
+.banner {
+  overflow: hidden;
+}
+
 .slide_banner {
+  width: 400vw;
+  height: 595px;
+  transition: transform 500ms;
+  position: relative;
+}
+.inner {
+  width: 100vw;
+  float: left;
+}
+.inner img {
   width: 100%;
   height: 595px;
 }
+.btn_all {
+  cursor: pointer;
+}
 
+.btn_s1 {
+  position: absolute;
+  top: 540px;
+  left: 46%;
+  width: 10px;
+  display: block;
+  margin-top: 20px;
+  height: 10px;
+  background-color: #fff;
+  font-weight: 900;
+  border-radius: 50%;
+}
+.btn_s2 {
+  position: absolute;
+  top: 540px;
+  left: 49%;
+  width: 10px;
+  display: block;
+  margin-top: 20px;
+  height: 10px;
+  background-color: #fff;
+  font-weight: 900;
+  border-radius: 50%;
+}
+.btn_s3 {
+  position: absolute;
+  top: 540px;
+  left: 52%;
+  width: 10px;
+  display: block;
+  margin-top: 20px;
+  height: 10px;
+  background-color: #fff;
+  font-weight: 900;
+  border-radius: 50%;
+}
+.btn_s4 {
+  position: absolute;
+  top: 540px;
+  left: 55%;
+  width: 10px;
+  display: block;
+  margin-top: 20px;
+  height: 10px;
+  background-color: #fff;
+  font-weight: 900;
+  border-radius: 50%;
+}
 .box1 {
   width: 100%;
   display: block;
